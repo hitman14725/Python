@@ -24,7 +24,7 @@ def GameStart():
                     pet.weight = pet.weight+0.25
                     pet.thirst = pet.thirst-0.06
                 else:
-                    pet.weight = 1(10-pet.weight)
+                    pet.weight = (10-pet.weight)
             else: print(' Не голоден.')
 
         def water(self):
